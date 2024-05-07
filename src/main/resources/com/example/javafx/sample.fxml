@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx.Controller">
+   <children>
+      <AnchorPane layoutY="116.0" prefHeight="284.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <TextField fx:id="loginField" layoutX="229.0" layoutY="97.0" prefHeight="25.0" prefWidth="242.0" promptText="Логин" style="-fx-background-color: #FAFAFA; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="passField" layoutX="229.0" layoutY="148.0" prefHeight="25.0" prefWidth="242.0" promptText="Пароль" style="-fx-background-color: #FAFAFA; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </PasswordField>
+            <Label alignment="CENTER" layoutX="175.0" layoutY="-1.0" prefHeight="83.0" prefWidth="350.0" text="Авторизация" textFill="#bf4a4a">
+               <font>
+                  <Font name="Ravie" size="40.0" />
+               </font>
+            </Label>
+            <Button fx:id="authSignInButton" layoutX="265.0" layoutY="218.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="171.0" style="-fx-background-color: #F39C63;" text="Войти">
+               <font>
+                  <Font name="Ravie" size="17.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+      <Label alignment="CENTER" layoutX="175.0" layoutY="27.0" prefHeight="83.0" prefWidth="350.0" text="itProger" textFill="WHITE">
+         <font>
+            <Font name="Ravie" size="46.0" />
+         </font></Label>
+      <Button fx:id="loginSignUpButton" layoutX="515.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="171.0" style="-fx-background-color: #F39C63;" text="Зарегистрироваться">
+         <font>
+            <Font name="Ravie" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
